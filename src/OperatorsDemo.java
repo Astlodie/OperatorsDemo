@@ -10,7 +10,7 @@ public class OperatorsDemo {
 		System.out.println("a % b:"+ (a % b));
 		
 		a -=b;
-		System.out.println("- = Output:"+a);
+		System.out.println("-= Output:"+a);
 
 		a *=b;
 		System.out.println("*= Output:"+a);
@@ -54,7 +54,7 @@ public class OperatorsDemo {
 		    System.out.println("f^g: "+result);
 		    
 		    result= ~f;
-		    System.out.println("f:"+result);
+		    System.out.println("~f:"+result);
 		    
 		    result= f<<g;
 		    System.out.println("f<<g: "+result);
